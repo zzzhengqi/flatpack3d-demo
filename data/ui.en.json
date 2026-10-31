@@ -1,0 +1,143 @@
+{
+  "appName": "FlatPack3D",
+  "loading": "Loading…",
+  "pieceGroup": "Piece",
+  "variantLabel": "Route",
+  "manualHide": "Hide manual",
+  "manualShow": "Show manual",
+  "manualLabel": "Manual {docId}",
+  "refsLabel": "Product image (layout source)",
+  "explode": "Exploded view",
+  "viewAll": "Overview",
+  "viewBody": "Fit assembly",
+  "viewBodySet": "Fit unit",
+  "drawing": "Line art",
+  "drawingTitle": "Black lines on white, no shadows, close to the manual illustrations (D)",
+  "labels": "Labels",
+  "labelsTitle": "Show part names (N)",
+  "shortcuts": "Shortcuts",
+  "shortcutsTitle": "Keyboard shortcuts",
+  "langTitle": "Interface language",
+  "prevTitle": "Previous step ([ or ←)",
+  "nextTitle": "Next step (] or →)",
+  "replayTitle": "Play current step (Space)",
+  "chainTitle": "Play all steps (C)",
+  "staticNote": "The full set is a finished display with no steps; drag \"Exploded view\" to pull the inserts out of the compartments.",
+  "stepOverview": "Check",
+  "stepPrep": "Preparation",
+  "stepN": "Step {n} ({i} / {total})",
+  "stepTitle": "Step {n} · {title}",
+  "manualPages": "Manual {pages}",
+  "repeat": "×{n} drawers",
+  "noNew": "No new parts",
+  "install": "Push {n} part(s) into the compartment",
+  "hwParts": "Panels",
+  "hwPartsPlaced": "Panels fitted",
+  "hwHardware": "Hardware",
+  "hwUnit": "counted per {unit}",
+  "toolInUse": "Used in this step",
+  "wallSummary": "Wall-attachment hardware: {n} types (not covered)",
+  "setKicker": "Full set",
+  "setKicker2": "Instanced rendering",
+  "setSubtitle": "{title} · insert layout from the product images",
+  "setCompose": "Contents",
+  "setBodyRow": "{n} panels",
+  "setInsertRow": "{n} panels each",
+  "setPartTotal": "Panels in total",
+  "setPartTotalVal": "{n}",
+  "setInstanced": "Insert meshes",
+  "setInstancedVal": "{n} InstancedMesh",
+  "setLayoutNote": "This layout comes from the product images, not from the assembly instructions.",
+  "refImage": "Image {n}",
+  "refsMissing": "{url} not found. Product images are only kept locally for reference and are not committed.",
+  "refsMissingOnline": "Product images belong to the manufacturer and are not included in this demo; see the product page.",
+  "pageAlt": "Manual page {p}",
+  "pageHint": "Click a step drawing on the page to jump to that step",
+  "pageNoStep": "This page has no assembly step for the current route",
+  "pageJumped": "Jumped to step {n}",
+  "pageOpen": "Full size",
+  "pagePrev": "Previous page",
+  "pageNext": "Next page",
+  "pageOf": "p{p} / {count}",
+  "loadError": "Could not read the data ({msg}). Start a local server in the project root and reopen, e.g. python -m http.server 8137",
+  "pickCode": "Internal code {id}",
+  "pickType": "{type}",
+  "pickPartNote": "The manual gives no part numbers for these parts; the internal code is this project's data id, not a manufacturer part number",
+  "pickHwId": "Hardware no. {id}",
+  "pickInsert": "{title} (row {r}, column {c})",
+  "pickClose": "Close",
+  "hostLabel": "Compartment (schematic)",
+  "markLabel": "Pencil line",
+  "autoFrameOn": "Auto framing: on",
+  "autoFrameOff": "Auto framing: paused",
+  "autoFrameTitle": "Pauses when you drag, zoom or walk in Room view; press R or \"Overview\" to resume",
+  "wallLabel": "Wall",
+  "removeChip": "Remove",
+  "otherVariantHw": "Hardware for the other option: {n} types (not used on this route)",
+  "outlineCabinet": "Final position of the unit (cyan outline)",
+  "outlineFixing": "Final position of fitting {id} (cyan outline)",
+  "roomKicker": "Room view",
+  "roomFixings": "Fittings for this option",
+  "roomFooter": "Room view: WASD to move, Q/E to turn, the mouse still orbits and zooms; where the unit hides the cyan outlines they are drawn as faint dashed lines.",
+  "roomPagesHint": "p{p} is the safety warning page of the manual; the others are the fixing steps for this option",
+  "shortcutList": [
+    {
+      "keys": "[  ]",
+      "text": "Previous / next step (← → also work)"
+    },
+    {
+      "keys": "0–9",
+      "text": "Jump to a step, 0 is the parts check; type two digits quickly for steps 10+"
+    },
+    {
+      "keys": "Space",
+      "text": "Play current step"
+    },
+    {
+      "keys": "C",
+      "text": "Play all steps / stop"
+    },
+    {
+      "keys": "R",
+      "text": "Reset view and resume auto framing"
+    },
+    {
+      "keys": "X",
+      "text": "Toggle exploded view"
+    },
+    {
+      "keys": "N",
+      "text": "Toggle part labels"
+    },
+    {
+      "keys": "L",
+      "text": "Toggle line art"
+    },
+    {
+      "keys": "W A S D",
+      "text": "Move forward / left / back / right in Room view"
+    },
+    {
+      "keys": "Q E",
+      "text": "Turn left / right in Room view"
+    },
+    {
+      "keys": "Click a part",
+      "text": "Show its name and code"
+    },
+    {
+      "keys": "Click a manual drawing",
+      "text": "Jump to that step"
+    }
+  ],
+  "movingParts": "Panels in this step",
+  "zoomCount": "{n}×",
+  "zoomSource": "Per {pages}",
+  "pageFallbackTitle": "Manual page {p} (page images are not rendered on this machine)",
+  "pageFallbackTitleOnline": "Manual page {p} (see the official PDF for the original)",
+  "pageOpenPdf": "Open page {p} of the official PDF ({doc})",
+  "pageRenderHint": "Manual page images are not committed. Put the PDF in inputs/{product}/ and run python scripts/render-pages.py {product}; the page images will then appear here automatically.",
+  "roomPagesHintNoSafety": "The fixing steps for this option",
+  "byline": "by 蒸汽",
+  "bylineTitle": "蒸汽 ZHENGQI"
+}
